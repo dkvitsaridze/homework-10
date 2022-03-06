@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .wrapper {
+      /* justify-content: center; */
+      grid-template-columns: repeat(2, 1fr);
+      /* background-color: brown; */
+    }
+    .box {
+      width: 100%;
+    }
+    .container {
+      padding: 0 15px;
+    }
+    .burger {
+      display: flex;
+    }
+    nav {
+      display: none;
+    }
+    h3 {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wrapper {
+      /* background-color: darkblue; */
+      grid-template-columns: 100%;
+    }
+  }
